@@ -8,13 +8,13 @@ namespace Guia2
         {
             /*1. Hacer un programa para solicitar dos números y luego calcule y emita la suma en pantalla.*/
 
-            //int n1, n2, resultado;
-            //Console.Write("Introduce el primero numero: ");//imprimimos en pantalla para que usuario sepa que hacer
-            //n1 = int.Parse(Console.ReadLine());// guardamos en n1 lo que el usuario introduce
-            //Console.Write("Introduce el segundo numero: ");
-            //n2 = int.Parse(Console.ReadLine());
-            //resultado = n1 + n2;
-            //Console.WriteLine("El resultado es: " + resultado);
+            int n1, n2, resultado;
+            Console.Write("Introduce el primero numero: ");//imprimimos en pantalla para que usuario sepa que hacer
+            n1 = int.Parse(Console.ReadLine());// guardamos en n1 lo que el usuario introduce
+            Console.Write("Introduce el segundo numero: ");
+            n2 = int.Parse(Console.ReadLine());
+            resultado = n1 + n2;
+            Console.WriteLine("El resultado es: " + resultado);
 
 
 
@@ -43,9 +43,9 @@ namespace Guia2
             //tiempo = kilometros / velocidad;
             //Console.WriteLine("El tiempo que tarde en llegar de un lugar a otro es de " + tiempo + " horas");
 
-            
-            
-            
+
+
+
             /*4. Una casa de computación paga a sus empleados un sueldo fijo de $500 más una comisión del 5% sobre
              el total facturado por cada empleado. Hacer un programa para ingresar el total facturado por un 
              empleado y que luego calcule y emita por pantalla el sueldo total a cobrar por el mismo.*/
@@ -60,9 +60,9 @@ namespace Guia2
             //sueldoTotal = sueldo + comision;
             //Console.WriteLine("El sueldo total con comisiones es de: " + sueldoTotal);
 
-            
-            
-            
+
+
+
             /*5. Hacer un programa para ingresar por teclado las tres notas de exámenes de un alumno y 
              luego calcule y emita por pantalla el promedio final.*/
 
@@ -80,8 +80,8 @@ namespace Guia2
 
 
             /*Hacer un programa que pida 20 numeros y luego indique cual es el mayor de los 
-             * numeros pares y el menor de los numeros impares*/                    
-            
+             * numeros pares y el menor de los numeros impares*/
+
             //int n, maxPar = 0, minImpar = 0;
             //int conPar = 0, conImpar = 0;
 
@@ -124,7 +124,7 @@ namespace Guia2
 
             //Console.WriteLine("El menor de los impares es: " + minImpar);
 
-            
+
 
             /*3. Una casa de video juegos otorga un descuento dependiendo del importe de la compra 
              realizada según los siguientes valores:
